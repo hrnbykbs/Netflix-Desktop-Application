@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17E3D1F2-B4DE-4580-8C73-9D5B20103567}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProLab2Proje3</RootNamespace>
+    <AssemblyName>ProLab2Proje3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullanicisinifi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netflix-logo-png-2562.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netflixgif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\brba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\anasayfaikon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cikisyapikon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\searchikon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\72sevimlihayvan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\alacakaranlık.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\alvinvesincaplar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\angrybirds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\arifv216.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\assasinscreed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\atiye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\aydakisonadam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\basketballornothing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\baslangic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\benefsaneyim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\beniboylesev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\beyblade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bizihatirla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\buyuktasarımlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\carmasters.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\charlienincikolatafabrikasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\criminal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dangal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\davincisifresi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\delibal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dirilisertugrul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dreambig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dunyanınensiradisievleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ejderhalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fantastikcanavarlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\frankenstein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gezegenimiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\harrypotterveolumyadigarlari1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\harrypotterveolumyadigarlari2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hmym.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jaws.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jurrasicworld.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jurrassicpark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\karasovalye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kardesimbenim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kungfupanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kungfupandamuhtesemsirlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kuscular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kuslarladans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\leylailemecnun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\marstakesif.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\marvelsironfist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\masailekocaayi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maske.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\megazeka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mercanpesinde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\missionblue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mrbeantatilde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ninjakaplumbagalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\orumcekadam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pandemik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\patronbebek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plastikokyanus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pokemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rakamlarlatahmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\recepivedik6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\scoobydoo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sherlockholmes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\shrek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\siradisikulubeler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sirinler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sonicx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\strangerthings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\thebigfamilycooking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\theblacklist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\theoriginals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\transformerskayipcag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\trolavcilari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\yercekimi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\yildizlararasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\yuzuklerinefendisiikikule.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\yuzuklerinefendisikralindonusu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sungerbob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\netflixintrogif1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\netflixintrogif2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bgnetflix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bgnetflix2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\geributonikon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\72sevimlihayvan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\alacakaranlık.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\alvinvesincaplar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\angrybirds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\arifv216.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\assasinscreed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\atiye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\aydakisonadam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\basketballornothing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\baslangic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\benefsaneyim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\beniboylesev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\beyblade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\bizihatirla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\buyuktasarimlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\carmasters.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\charlienincikolatafabrikasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\criminal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\dangal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\davincisifresi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\delibal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\dirilisertugrul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\dreambig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\dunyaninensiradisievleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\ejderhalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\fantastikcanavarlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\frankenstein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\gezegenimiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\harrypotterveolumyadigarlari1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\harrypotterveolumyadigarlari2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\hmym.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\jaws.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\jurrassicpark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\jurrassicworld.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\karasovalye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\kardesimbenim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\kungfupanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\kungfupandamuhtesemsirlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\kuscular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\kuslarladans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\leylailemecnun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\marstakesif.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\marvelsironfist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\masailekocaayi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\maske.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\megazeka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\mercanpesinde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\missionblue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\mrbeantatilde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\ninjakaplumbagalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\orumcekadam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\pandemik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\patronbebek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\pk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\plastikokyanus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\pokemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\rakamlarlatahmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\recepivedik6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\scoobydoo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\sherlockholmes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\shrek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\siradisikulubeler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\sirinler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\sonicx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\strangerthings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\sungerbob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\thebigfamilycooking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\theblacklist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\theoriginals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\transformerskayipcag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\trolavcilari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\yercekimi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\yildizlararasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\yuzuklerinefendisiikikule.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\yuzuklerinefendisikralindonusu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\searchikon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ntf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\foto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\wp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Papirus-Team-Papirus-Apps-Netflix.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\afisler\frankestein.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
