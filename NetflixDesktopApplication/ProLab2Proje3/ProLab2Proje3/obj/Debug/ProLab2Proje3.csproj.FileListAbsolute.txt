@@ -1,0 +1,21 @@
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.exe.config
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.exe
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.pdb
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.csprojAssemblyReference.cache
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Form1.resources
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Properties.Resources.resources
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.csproj.GenerateResource.cache
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.exe
+C:\Users\HARUN\Desktop\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.pdb
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.exe.config
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.exe
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\bin\Debug\ProLab2Proje3.pdb
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.csprojAssemblyReference.cache
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Form1.resources
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Properties.Resources.resources
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.csproj.GenerateResource.cache
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.exe
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.pdb
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Form2.resources
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Form3.resources
+D:\HARUN\2019-2020 KOCAELİ ÜNİVERSİTESİ 2.DÖNEM\Programlama Laboratuvarı – II\Programlama Laboratuvarı II - 3.Proje\ProLab2Proje3\ProLab2Proje3\obj\Debug\ProLab2Proje3.Form4.resources
