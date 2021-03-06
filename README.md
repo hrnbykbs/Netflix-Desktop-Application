@@ -1,17 +1,18 @@
 # Netflix Desktop Application
 Netflix's desktop application has been developed.
 
-# Sign in Screen
+# Screens
+# A. Sign in Screen
 ![alt text](https://github.com/hrnbykbs/AllPictures/blob/main/NetflixDesktopApplication/login.png)
 
-# Sign up Screen
+# B. Sign up Screen
 ![alt text](https://github.com/hrnbykbs/AllPictures/blob/main/NetflixDesktopApplication/signUp.png)
 
-# Main Screen
+# C. Main Screen
 ![alt text](https://github.com/hrnbykbs/AllPictures/blob/main/NetflixDesktopApplication/mainPage.png)
 
-# Cinema Screen
+# D. Cinema Screen
 ![alt text](https://github.com/hrnbykbs/AllPictures/blob/main/NetflixDesktopApplication/watched.png)
 
-# Search Screen
+# E. Search Screen
 ![alt text](https://github.com/hrnbykbs/AllPictures/blob/main/NetflixDesktopApplication/search.png)
